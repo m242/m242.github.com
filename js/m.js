@@ -22,7 +22,7 @@ setTimeout(function() {
 				'http://connect.facebook.net/en_US/all.js#appId=247895271899695&xfbml=1'],
 			callback: function (url, result, key) {
 				if (url == 'http://platform.twitter.com/widgets.js') {
-					$(".twitter-follow-button").show();
+					// $(".twitter-follow-button").show();
 				}
 			}
 		}
