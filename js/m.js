@@ -10,13 +10,6 @@ Modernizr.load([
 				$.backstretch('img/bg.jpg');
 			}
 		}
-	},
-	{
-		test: Modernizr.mq('(max-width: 480px)'),
-		yep: '//cdnjs.cloudflare.com/ajax/libs/jquery/1.7.1/jquery.min.js',
-		callback: function(url, result, key) {
-			$("#container").height("1000px").css("background-color", "#000");
-		}
 	}
 ]);
 

@@ -29,6 +29,7 @@ body {
 
 .backgroundsize #background {
 	background-image:url('../img/bg.jpg');
+	opacity:0.9;
 	background-size:cover;
 	background-position:0 100%;
 }
@@ -147,53 +148,73 @@ h2 {
 	h2 {
 		width:60%;
 	}
+	.backgroundsize #background {
+		padding-bottom:60px;
+		opacity:0.9;
+	}
 	#bio1 {
 		width:60%;
 	}
 	#bio2 {
 		width:55%;
 	}
-	#badges {
+	#projects {
+		position:relative;
 		left:10%;
-		top:80%;
+		top:0;
+		margin:20px 0 0 0;
+		width:90%;
+	}
+	#badges {
+		position:relative;
+		left:10%;
+		top:0;
+		margin:20px 0 0 0;
+		width:90%;
 	}
 }
 
 /* Phone */
 
 @media only screen and (max-width: 480px) {
-	body {
-		background-image:url('../img/bg.jpg');
+	#container {
+		width:96%;
+		margin:0 2%;
 	}
-	#background, #container, .backgroundsize #background {
-		background-image:none;
+	.backgroundsize #background {
+		background-image:url('../img/bg.jpg');
+		width:100%;
+		padding-bottom:30px;
+		opacity:0.9;
+	}
+	h1 {
+		margin:40px 0 0 10px;
+	}
+	#profile {
+		position:relative;
+		left:-5px;
+		top:-50px;
+		float:right;
 	}
 	h2 {
-		margin:10px 10px 0 10px;
+		margin:10px 0 0 0;
 		width:100%;
 	}
 	.bio {
-		margin:20px 10px 0 10px;
+		margin:20px 0 0 0;
 	}
 	#bio1, #bio2 {
 		width:100%;
 	}
 	#projects {
-		position:relative;
-		top:0;
 		left:0;
-		margin:20px 10px 0 10px;
 		width:100%;
 	}
 	#projects li:first-child {
 		display:block;
 	}
 	#badges {
-		position:relative;
-		top:0;
 		left:0;
-		margin:20px 10px 0px 10px;
-		padding:0 0 50px 0;
 		width:100%;
 	}
 	#fb-badge {
