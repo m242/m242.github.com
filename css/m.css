@@ -191,6 +191,7 @@ h2 {
 		margin:0 2%;
 	}
 	.backgroundsize #background {
+		background-position:-50px 100%;
 		width:100%;
 		padding-bottom:30px;
 		opacity:0.9;
