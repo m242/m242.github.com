@@ -6,7 +6,7 @@ body {
 	background-color:#000;
 	margin:0;
 	padding:0;
-	-webkit-font-smoothing:subpixel-antialiased;
+    -webkit-font-smoothing: subpixel-antialiased;
 	text-shadow:1px 1px 1px #333;
 }
 
@@ -38,6 +38,7 @@ h1 {
 	margin:60px 0 0 11%;
 	font-size:84px;
 	font-weight:normal;
+    -webkit-text-stroke: .20pt white;
 }
 
 .no-js h1, .js h1 {
@@ -56,11 +57,13 @@ h2 {
 	font-weight:800;
 	line-height:20px;
 	width:38%;
+    -webkit-text-stroke: .20pt #ddd;
 }
 
 .bio, #ie {
 	margin:20px 0 0 10%;
 	font-weight:600;
+    -webkit-text-stroke: .20pt white;
 }
 
 #bio1 {
@@ -86,6 +89,7 @@ h2 {
 	margin:0;
 	padding:0;
 	color:#999;
+    -webkit-text-stroke: .20pt #999;
 }
 
 #projects li {
@@ -96,6 +100,7 @@ h2 {
 
 #projects a {
 	color:#eee;
+    -webkit-text-stroke: .20pt #eee;
 }
 
 #projects a:hover {
