@@ -10,6 +10,15 @@ Modernizr.load([
 				$.backstretch('img/bg.jpg');
 			}
 		}
+	},
+	{
+		test: Modernizr.mq('(max-width:768px)'),
+		yep: 'http://cdnjs.cloudflare.com/ajax/libs/zepto/0.7/zepto.min.js',
+		complete: function() {
+			$(function() {
+				$("#background").height($("#container").height());
+			});
+		}
 	}
 ]);
 
