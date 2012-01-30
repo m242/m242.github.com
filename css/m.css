@@ -24,13 +24,17 @@ body {
 
 .backgroundsize #background {
 	background-image:url('../img/bg.jpg');
-	opacity:0.9;
 	background-size:cover;
 	background-position:0 100%;
+	opacity:0.9;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+	filter: alpha(opacity=90);
 }
 
 #backstretch {
 	opacity:0.9;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+	filter: alpha(opacity=90);
 }
 
 h1 {
@@ -153,6 +157,8 @@ h2 {
 	.backgroundsize #background {
 		padding-bottom:60px;
 		opacity:0.9;
+		-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+		filter: alpha(opacity=90);
 	}
 	#bio1 {
 		width:60%;
@@ -185,10 +191,11 @@ h2 {
 		margin:0 2%;
 	}
 	.backgroundsize #background {
-		background-image:url('../img/bg.jpg');
 		width:100%;
 		padding-bottom:30px;
 		opacity:0.9;
+		-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+		filter: alpha(opacity=90);
 	}
 	h1 {
 		margin:40px 0 0 10px;
