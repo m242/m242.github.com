@@ -1,14 +1,21 @@
 window._gaq = [['_setAccount','UA-25068800-1'],['_trackPageview'],['_trackPageLoadTime']];
 
 Modernizr.load([
-	'//cdnjs.cloudflare.com/ajax/libs/jquery/1.7.1/jquery.min.js',
 	{
 		test: Modernizr.backgroundsize,
-		nope: 'js/jquery.backstretch.min.js',
+		nope: ['//cdnjs.cloudflare.com/ajax/libs/jquery/1.7.1/jquery.min.js',
+			'js/jquery.backstretch.min.js'],
 		callback: function (url, result, key) {
 			if (url === 'js/jquery.backstretch.min.js') {
 				$.backstretch('img/bg.jpg');
 			}
+		}
+	},
+	{
+		test: Modernizr.mq('(max-width: 480px)'),
+		yep: '//cdnjs.cloudflare.com/ajax/libs/jquery/1.7.1/jquery.min.js',
+		callback: function(url, result, key) {
+			$("#container").height("1000px").css("background-color", "#000");
 		}
 	}
 ]);
