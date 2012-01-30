@@ -188,11 +188,13 @@ h2 {
 	h1 {
 		margin:40px 0 0 10px;
 		font-weight:normal;
+		width:50%;
+		line-height:64px;
 	}
 	#profile {
 		position:relative;
-		left:-5px;
-		top:-50px;
+		left:-10px;
+		top:-130px;
 		float:right;
 	}
 	h2 {
