@@ -1,0 +1,304 @@
+body {
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 16px;
+	color: #656565;
+}
+
+h1, h3, h6, #nav-top, #top {
+	font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;	
+}
+
+h1 {
+	font-size: 32px;
+	font-weight: 300;
+	color: #333;
+}
+
+h3 {
+	font-size: 20px;
+	font-weight: 300;
+	color: white;
+}
+
+h6 {
+	text-transform: uppercase;
+	color: #aaa;
+	margin-top: 0;
+	margin-bottom: 60px;
+}
+
+p {
+	line-height: 30px;
+	margin-bottom: 30px;
+}
+
+em {
+	font-style: normal;
+	font-weight: 700;
+	color: #666;
+}
+
+#nav-top .navbar-inner {
+	/*-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;*/
+	background-image: none;
+	border: none;
+	background-color: #f6f6f6;
+	background-color: rgba(255, 255, 255, 0.95);
+	font-weight: 400;
+}
+
+#nav-top .brand {
+	padding: 25px;
+	text-shadow: none;
+	letter-spacing: 1px;
+	font-weight: 400;
+	color: #a33;
+}
+
+#nav-top .brand:hover {
+	color: #333;
+}
+
+#nav-top .brand .profile {
+	background-image: url(https://si0.twimg.com/profile_images/482058130/profile2_bigger.jpg);
+	background-size: cover;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	margin-top: -6px;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+#nav-top .nav > li > a {
+	padding: 25px;
+	text-transform: uppercase;
+	text-shadow: none;
+	color: #aaa;
+	letter-spacing: 1px;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+	font-size: 13px;
+}
+
+#nav-top .nav > .active > a {
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	background-color: inherit;
+	color: #333;
+}
+
+#nav-top .nav > li > a:hover {
+	color: #333;
+}
+
+section {
+	padding: 100px 0 0 0;
+}
+
+#top, #ft {
+	font-size: 22px;
+	font-weight: 300;
+	background-image: url(redlegos.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+	-webkit-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.75);
+	-moz-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.75);
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.75);
+	min-height: 472px;
+}
+
+#tweets > h1 {
+	color: white;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+.tweet {
+	font-size: 12px;
+	color: #ccc;
+	color: rgba(255,255, 255, 0.5);
+	-webkit-text-shadow: none;
+	-moz-text-shadow: none;
+	text-shadow: none;
+	white-space: nowrap;
+	height: 48px;	
+}
+
+.tweet > .carousel-inner > .item > .text {
+	overflow: hidden;
+}
+
+.tweet em {
+	font-style: normal;
+	font-size: 24px;
+	font-weight: 300;
+	color: white;
+	text-transform: uppercase;
+	-webkit-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.75);
+	-moz-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.75);
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.75);
+}
+
+.tweet .profile_image_url > .profile {
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	width: 48px;
+	height: 48px;
+	margin-right: 10px;
+	opacity:0.5;
+}
+
+.triangle {
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 0 25px 20px 25px;
+	margin-top: 80px;	
+	margin-left: 20px;
+	float:left;
+}
+
+#top .triangle {
+	border-color: transparent transparent #f6f5f3 transparent;	
+}
+
+
+#statement {
+	background-color: #f6f5f3;
+}
+
+#statement h6 {
+	text-align: right;
+}
+
+#statement .triangle {
+	border-color: transparent transparent #fff transparent;	
+}
+
+#experience {
+}
+
+#experience .span4 {
+	text-transform: uppercase;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+#experience .span4 > .logo {
+	margin-top: 18px;
+}
+
+#experience .span4 > .logo > img {
+	opacity: 0.3;
+	-webkit-filter:grayscale(1);
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+}
+
+#experience .span4 > .logo > img:hover {
+	opacity: 1.0;
+	-webkit-filter:grayscale(0);
+}
+
+#experience .position {
+	margin-bottom: 60px;
+}
+
+#experience .position ul {
+	margin-bottom: 30px;
+	list-style-type: circle;
+}
+
+#experience .position li {
+	margin-bottom: 14px;
+	line-height: 30px;
+}
+
+#experience .container .position:nth-child(8) {
+	margin-bottom: 0;
+}
+
+#experience .triangle {
+	border-color: transparent transparent #f6f5f3 transparent;	
+}
+
+#technology {
+	background-color: #f6f5f3;
+	padding-bottom: 40px;
+}
+
+#technology-list {
+	padding-top: 60px;
+	background-image: url(orangelegos.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+	-webkit-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.75);
+	-moz-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.75);
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.75);
+	font-size: 14px;
+	color: #ccc;
+	color: rgba(255, 255, 255, 0.75);
+}
+
+#technology-list ul {
+	margin-bottom: 60px;
+}
+
+#technology-list li {
+	line-height: 24px;
+}
+
+#technology-list em {
+	color: white;
+}
+
+#technology .triangle, #technology-list .triangle {
+	border-color: transparent transparent #e6e5e3 transparent;	
+}
+
+#technology-list .triangle {
+	margin-top: 30px;
+}
+
+#links {
+	background-color: #e6e5e3;
+}
+
+#links h3, #contact h3 {
+	color: #333;
+}
+
+#contact h3 {
+	margin-bottom: 0;
+}
+
+#links .triangle {
+	border-color: transparent transparent #fff transparent;	
+}
+
+#contact {
+	padding-bottom: 100px;
+}
+
+#ft {
+	padding: 50px 0 40px 0;
+	min-height: 0;
+}
+
+#ft h1 {
+	color: white;
+}
