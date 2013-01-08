@@ -35,7 +35,7 @@
 		$this = $(this);
 		d = new Date();
 		email = "mark.resume." + (d.getYear() + 1900) + (d.getMonth() + 1) + d.getDate() + d.getHours() + d.getMinutes() + "@markbeeson.net";
-		$this.html("<a href=\"mailto:" + email + "\">" + email + "</a>");
+		$this.html("<a href=\"mailto:" + email + "\">mark.resume@markbeeson.net</a>");
 	});
 	
 	$("body").addClass("loaded");
