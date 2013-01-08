@@ -101,7 +101,7 @@ em {
 }
 
 section {
-	padding: 100px 0 0 0;
+	padding: 100px 0 80px 0;
 }
 
 #top, #ft {
@@ -115,6 +115,25 @@ section {
 	-moz-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.75);
 	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.75);
 	min-height: 472px;
+}
+
+#top {
+	-webkit-transform:translate(0, -100%);
+	-webkit-transition: all .5s ease-in-out;
+	-webkit-transition-delay: .5s;
+	-moz-transform:translate(0, -100%);
+	-moz-transition: all .5s ease-in-out;
+	-moz-transition-delay: .5s;
+	transform:translate(0, -100%);
+	transition: all .5s ease-in-out;
+	transition-delay: .5s;
+	padding-bottom: 20px;
+}
+
+.loaded #top {
+	-webkit-transform:translate(0, 0);	
+	-moz-transform:translate(0, 0);	
+	transform:translate(0, 0);	
 }
 
 #tweets > h1 {
@@ -163,16 +182,13 @@ section {
 	width: 0px;
 	height: 0px;
 	border-style: solid;
-	border-width: 0 25px 20px 25px;
-	margin-top: 80px;	
+	border-width: 0 20px 20px 20px;
+	margin-top: -120px;	
 	margin-left: 20px;
 	float:left;
+	z-index:5;
+	position: relative;
 }
-
-#top .triangle {
-	border-color: transparent transparent #f6f5f3 transparent;	
-}
-
 
 #statement {
 	background-color: #f6f5f3;
@@ -183,7 +199,7 @@ section {
 }
 
 #statement .triangle {
-	border-color: transparent transparent #fff transparent;	
+	border-color: transparent transparent #f6f5f3 transparent;	
 }
 
 #experience {
@@ -232,7 +248,7 @@ section {
 }
 
 #experience .triangle {
-	border-color: transparent transparent #f6f5f3 transparent;	
+	border-color: transparent transparent #fff transparent;	
 }
 
 #technology {
@@ -267,7 +283,7 @@ section {
 }
 
 #technology .triangle, #technology-list .triangle {
-	border-color: transparent transparent #e6e5e3 transparent;	
+	border-color: transparent transparent #f6f5f3 transparent;	
 }
 
 #technology-list .triangle {
@@ -287,11 +303,15 @@ section {
 }
 
 #links .triangle {
-	border-color: transparent transparent #fff transparent;	
+	border-color: transparent transparent #e6e5e3 transparent;	
 }
 
 #contact {
 	padding-bottom: 100px;
+}
+
+#contact .triangle {
+	border-color: transparent transparent #fff transparent;	
 }
 
 #ft {
