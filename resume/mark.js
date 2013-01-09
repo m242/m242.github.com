@@ -38,6 +38,8 @@
 		$this.html("<a href=\"mailto:" + email + "\">mark.resume@markbeeson.net</a>");
 	});
 	
+});
+
+$(window).load(function() {
 	$("body").addClass("loaded");
-	
 });
