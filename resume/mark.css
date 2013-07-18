@@ -191,11 +191,26 @@ section {
 }
 
 #statement {
-	background-color: #f6f5f3;
+	/* background-color: #f6f5f3; */
+	background-image: url(redlegos.jpg);
+	color: white;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.75);
+}
+
+#statement h1 {
+	color: white;
+	margin-top: 50px;
 }
 
 #statement h6 {
 	text-align: right;
+	color: #ccc;
+	color: rgba(255, 255, 255, 0.75);
+}
+
+#statement em {
+	color: #ccc;
+	color: rgba(255, 255, 255, 0.75);
 }
 
 #statement .triangle {

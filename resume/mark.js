@@ -23,14 +23,15 @@
 		});
 	};
 
-	$(".tweet").each(function() {
+	/*$(".tweet").each(function() {
 			var $tweet, word;
 			$tweet = $(this);
 			word = $tweet.data("word");
 			showTweets($tweet.find(".carousel-inner"), word, function() {
 				$tweet.carousel({ interval: 3000 + Math.floor((Math.random()*5000)+1), pause: "" })
 			});
-	});
+	});*/
+	// Twitter deprecated their JSONP interface.
 	
 	$("#email").each(function() {
 		var $this, d, email;
